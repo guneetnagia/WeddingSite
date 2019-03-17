@@ -1,0 +1,109 @@
+.parallax { 
+    background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/2015-wallpaper_111525594_269.jpg"); 
+    min-height: 500px;  
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative;
+    text-align: center;
+    color: white;
+} 
+
+.text-center {
+  text-align: center
+}
+
+.menu-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-left, .row-page2 div h2 {
+  font-family: "Sacramento", Arial, serif;
+  font-size: 40px;
+  margin: 15px 15px 15px 15px;
+}
+
+.menu-right{
+  margin: 0px 15px 15px 15px;
+}
+
+.bg-image h1{
+  font-family: "Sacramento", Arial, serif;
+  font-size: 100px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+.bg-image h2{
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.ui.text.menu .item {
+  color: beige !important
+}
+
+.date-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.days-section, .hours-section, .minutes-section, .seconds-section {
+  background: rgba(241, 78, 149, 0.8);
+  width: 100px;
+  height: 100px;
+  margin: 0 4px;
+  border-radius: 50%;
+  position: relative;
+
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-name: pulse;
+  animation-play-state: running;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+
+}
+
+.days-section div, .hours-section div, .minutes-section div, .seconds-section div{
+  margin-top: 30px;
+}
+.simply-amount {
+  font-size: 30px;
+  display: block;
+  color: white;
+}
+
+.simply-word {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.save-date .ui {
+  border-radius: 30px;
+}
+
+.row-page2 div h2{
+  color: #F14E95;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.row-page2 div h3 {
+  margin: 0px 0px 20px 0px;
+  color: black;
+}
+
+.row-page2 div p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #828282;
+}

@@ -2,9 +2,21 @@ import React from 'react';
 import MenuText from './MenuText'
 import './App.css';
 
+
 const App = () => {
-    const venue='New York, USA';
-    const date_wedding='June 1st, 2080';
+    function getBride() { 
+        return 'Adam';
+    }
+    function getGroom(){
+        return 'Eve';
+    }
+    function getVenue(){
+        return 'New York, USA';
+    }
+    
+    function getDate_Wedding(){
+        return 'June 1st, 2080';
+    }    
     return (
     <div className="body">
         <div className="header-wed"></div>
@@ -15,7 +27,7 @@ const App = () => {
                     <div className="menu-right"><MenuText /></div>
                 </div>
                 <div className="bg-image text-center">
-                    <h1>Adam & Ede</h1>
+                    <h1>{ getBride() } & { getGroom() }</h1>
                     <h2>We are getting married</h2>
                 </div>
                 <div className="date-container">
@@ -53,7 +65,8 @@ const App = () => {
             <div className="row-page2"> 
                 <div className="text-center">
                     <h2>Hello</h2>
-                    <h3>{date_wedding} {venue}</h3>
+    
+                    <h3>{ getDate_Wedding() } { getVenue() }</h3>
                     <p>We invited you to celebrate our wedding</p>
                 </div>
             </div>

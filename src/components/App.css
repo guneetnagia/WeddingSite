@@ -47,33 +47,6 @@
   color: beige !important
 }
 
-.date-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
-}
-
-.days-section, .hours-section, .minutes-section, .seconds-section {
-  background: rgba(241, 78, 149, 0.8);
-  width: 100px;
-  height: 100px;
-  margin: 0 4px;
-  border-radius: 50%;
-  position: relative;
-
-  animation-duration: 1s;
-  animation-delay: 0s;
-  animation-direction: normal;
-  animation-name: pulse;
-  animation-play-state: running;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-
-}
-
-.days-section div, .hours-section div, .minutes-section div, .seconds-section div{
-  margin-top: 30px;
-}
 .simply-amount {
   font-size: 30px;
   display: block;

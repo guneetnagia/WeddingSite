@@ -1,6 +1,9 @@
 import React from 'react';
 import MenuText from './MenuText';
 import Clock from './Clock';
+import PersonalInfo from './PersonalInfo';
+import Invitation from './Invitation'
+import faker from 'faker';
 import './App.css';
 
 
@@ -12,11 +15,17 @@ const App = () => {
         return 'Eve';
     }
     function getVenue(){
-        return 'New York, USA';
+        return 'Pune, India';
     }
     function getDate_Wedding(){
-        return 'May, 4, 2019';
+        return 'April, 4, 2019';
     }    
+    function getAvatarImage(){
+        return {
+            brideAvatar:faker.image.avatar(),
+            groomAvatar:faker.image.avatar()
+        }
+    }
     return (
     <div className="body">
         <div className="header-wed"></div>
@@ -47,6 +56,15 @@ const App = () => {
                     <p>We invited you to celebrate our wedding</p>
                 </div>
             </div>
+
+            <PersonalInfo 
+                groomName={ getGroom() }
+                brideName={ getBride() } 
+                groomAvatar={ getAvatarImage().groomAvatar }
+                brideAvatar={ getAvatarImage().brideAvatar }
+                />
+
+            <Invitation />
         </div> 
         <div className="footer"></div>
     </div>

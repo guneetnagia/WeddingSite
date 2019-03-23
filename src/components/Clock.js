@@ -9,7 +9,7 @@ class Clock extends React.Component{
         }
     }
     componentWillMount(){
-        console.log(this.props.deadline);
+        //console.log(this.props.deadline);
     }
 
     componentDidMount(){
@@ -18,7 +18,7 @@ class Clock extends React.Component{
 
     getTimeUntil(deadline) {
         const time = Date.parse(deadline) - Date.parse(new Date());
-        console.log(time);
+        //console.log(time);
         if(time<0){
             this.setState({
                 days:0,hours:0,minutes:0,seconds:0

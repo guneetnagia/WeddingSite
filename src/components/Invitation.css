@@ -1,0 +1,94 @@
+.fh5co-bg{
+    background-image: url(../images/bgInvite.jpg);
+    clear: both;
+    height: 850px;
+    padding: 7em 0;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    background: (0 0 0 0.4);
+}
+
+.containers{
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row1{
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 div{
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.row1 h2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: "Sacramento", Arial, serif;
+    text-align: center;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-ceremony, .wedding-ceremony{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-ceremony h3, .wedding-ceremony h3{
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    line-height: 2;   
+    margin-bottom: 30px;
+}
+
+.event-time span, .event-date span, .time_icon, .wedding-ceremony p,.main-ceremony p{
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.wedding-ceremony p,.main-ceremony p{
+    margin-bottom: 20px;
+    margin: 0 0 10px;
+}
+.event-time, .event-date{
+    display: flex;
+    flex-direction: column;
+}
